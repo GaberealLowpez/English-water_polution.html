@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<title>Gabriel Lopez</title>
+ 
+<style>
+    .but{
+      font-size: 30px;
+      cursor: default;
+      color: #ffffff;
+    }
+html {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-240deg, #f44141, #f4417f, #f441ca, #df41f4, #9d41f4, #6741f4, #4152f4,
+	#416df4, #41b2f4, #41e2f4, #41f4c1, #41f4a3, #41f458, #76f441, #d0f441, #e5f441, #ffdd00, #ff9000, #ff5000, #ff4300,
+	#ff5000, #ff9000, #ffdd00, #e5f441, #d0f441, #76f441, #41f458, #41f4a3, #41f4c1, #41e2f4, #41b2f4, #416df4, #4152f4,
+	#6741f4, #9d41f4, #df41f4, #f441ca, #f4417f, #f44141);
+	background-size: 1000% 1000%;
+	-webkit-animation: Gradient 40s ease infinite;
+	-moz-animation: Gradient 40s ease infinite;
+	animation: Gradient 40s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h1,
+
+ a:link {
+  color: #cc0000;
+}
+a:visited {
+  color: #ffffff;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0096D3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.1s;
+}
+
+.sidenav p {
+    padding: 1px 1px 1px 20px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+    transition: 0.1s;
+}
+
+.sidenav a:hover {
+    color: #333333;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+ <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p style="color:#ffffff; font-size:36px;">Websites:</p>
+   <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="csp_p2.html">CSP_P2</a>
+    <p style="color:#ffffff; font-size:36px;">Projects:</p>
+    <a href="files/Shreack_Klicker.aia">Clicker App</a>
+    <a href="https://repl.it/MiAc/9">Python Decision Point</a>
+    <a href="files/GLopez Hman Project.py">Hangman Project</a>
+    <a href="files/Artifact.pdf">Computational Artifact</a>
+    <a href="files/written responses.pdf">Written Response</a>
+    <p style="color:#ffffff; font-size:36px;">Create:</p>
+    <a href="files/GLopez Hman Project [Updated].py">[Updated] Hangman</a>
+    <a href="files/Performance Task.pdf">Performance Task</a>
+    <br>
+    <br>
+    <br>
+    <p style="color:#ffffff; font-size:12px">[Text Undefined]</p>
+    </a>
+</div> 
+<span class="but" onclick="openNav()">&#9776; open</span>
+
+<body>
+ 
+    <marquee direction="right" behavior="alternate" scrollamount="15"><h1> <align="center" style="color:#ffffff">CSP Period2!</h1></marquee>
+    <figure>
+   <marquee direction="up" ><center><img src="images/gabe_at_beach.jpg" height="250" ></center></marquee>
+  <center> <figcaption><font size=5 color=white>At the beach</font></center>
+
+	  </body>
+	</html>
+	<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
